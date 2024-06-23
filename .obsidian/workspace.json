@@ -1,0 +1,172 @@
+{
+  "main": {
+    "id": "bbd33e577015fb9d",
+    "type": "split",
+    "children": [
+      {
+        "id": "ccdee258eb90cfc2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c5fdbad82088dd16",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "bf8846fc1bc3a9f7",
+    "type": "split",
+    "children": [
+      {
+        "id": "21b8320824d9d3b4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9a8a8b28081f65e0",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "9daa25f79e66d551",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "cdc62cf7d168cd2b",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "75633318fe509dd5",
+    "type": "split",
+    "children": [
+      {
+        "id": "9fcd8c81e6d27d6a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9cffb3a61c3caa3b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "1177470c1d48bb44",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "12e61f70d4be2145",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "05c44351259d5a6f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "c5fdbad82088dd16",
+  "lastOpenFiles": [
+    "Word Ladder - II.md",
+    "Word Ladder - I.md",
+    "Untitled.canvas",
+    "Unit-4 Environment and Ecology.pptx",
+    "Unit-4 Environment and Ecology 2.pptx",
+    "Unit-4 Environment and Ecology 1.pptx",
+    "Surround Regions.md",
+    "Rotten Oranges.md",
+    "Q 01 Matrix.md",
+    "Pasted image 20240618210642.png",
+    "Pasted image 20240618202136.jpg",
+    "Pasted image 20240618201755.png",
+    "Pasted image 20240618200710.png",
+    "Pasted image 20240618200644.png",
+    "Number of Enclaves.md",
+    "Message Routes.md",
+    "Graphs.md",
+    "Building Teams.md",
+    "Bipartite Graph.md",
+    "797. All Paths From Source to Target.md",
+    "200. Number of Islands.md",
+    "999 Templates/Question Template.md",
+    "999 Templates/Study Template.md",
+    "999 Templates/Daily Template.md",
+    "999 Templates",
+    "999 Daily/2024-06-17.md",
+    "999 Daily",
+    "Welcome.md"
+  ]
+}
