@@ -4,27 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "ccdee258eb90cfc2",
+        "id": "4583203821249f9d",
         "type": "tabs",
         "children": [
           {
-            "id": "c5fdbad82088dd16",
+            "id": "b2bf1916b01a6ea1",
             "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
-            "id": "d2536953da849439",
-            "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Linked Lists.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "cff11430b86b6571",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Graphs.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true
             }
           }
         ],
@@ -94,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Graphs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Graphs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Graphs.md"
               }
             }
           }
@@ -155,12 +163,24 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d2536953da849439",
+  "active": "cff11430b86b6571",
   "lastOpenFiles": [
+    "Linked Lists.md",
+    "Doubly linked list Insertion at given position.md",
+    "Introduction to Doubly Linked List.md",
+    "Search in Linked List.md",
+    "Count Linked List Nodes.md",
+    "Delete Node in a Linked List.md",
+    "Linked List Insertion.md",
+    "Graphs.md",
+    "Arrays to LinkedLists.md",
+    "200. Number of Islands.md",
+    "797. All Paths From Source to Target.md",
+    "23-06-2024.md",
+    "Untitled.canvas",
     "README.md",
     "Word Ladder - II.md",
     "Word Ladder - I.md",
-    "Untitled.canvas",
     "Unit-4 Environment and Ecology.pptx",
     "Unit-4 Environment and Ecology 2.pptx",
     "Unit-4 Environment and Ecology 1.pptx",
@@ -174,17 +194,13 @@
     "Pasted image 20240618200644.png",
     "Number of Enclaves.md",
     "Message Routes.md",
-    "Graphs.md",
     "Building Teams.md",
     "Bipartite Graph.md",
-    "797. All Paths From Source to Target.md",
-    "200. Number of Islands.md",
     "999 Templates/Question Template.md",
     "999 Templates/Study Template.md",
     "999 Templates/Daily Template.md",
     "999 Templates",
     "999 Daily/2024-06-17.md",
-    "999 Daily",
-    "Welcome.md"
+    "999 Daily"
   ]
 }
