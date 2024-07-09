@@ -34,9 +34,23 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "ecd851a96f4f2947",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Graphs TopoSort.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -102,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Graphs.md",
+                "file": "Graphs TopoSort.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Graphs.md",
+                "file": "Graphs TopoSort.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Graphs.md"
+                "file": "Graphs TopoSort.md"
               }
             }
           }
@@ -163,8 +177,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cff11430b86b6571",
+  "active": "ecd851a96f4f2947",
   "lastOpenFiles": [
+    "Course Schedule II.md",
+    "Graphs TopoSort.md",
+    "Course Schedule I.md",
+    "link.md",
+    "Cycle Detection in Directed Graph (BFS).md",
+    "Graphs.md",
+    "Bipartite Graph.md",
+    "Building Teams.md",
     "Linked Lists.md",
     "Doubly linked list Insertion at given position.md",
     "Introduction to Doubly Linked List.md",
@@ -172,7 +194,6 @@
     "Count Linked List Nodes.md",
     "Delete Node in a Linked List.md",
     "Linked List Insertion.md",
-    "Graphs.md",
     "Arrays to LinkedLists.md",
     "200. Number of Islands.md",
     "797. All Paths From Source to Target.md",
@@ -193,14 +214,7 @@
     "Pasted image 20240618200710.png",
     "Pasted image 20240618200644.png",
     "Number of Enclaves.md",
-    "Message Routes.md",
-    "Building Teams.md",
-    "Bipartite Graph.md",
-    "999 Templates/Question Template.md",
-    "999 Templates/Study Template.md",
-    "999 Templates/Daily Template.md",
     "999 Templates",
-    "999 Daily/2024-06-17.md",
     "999 Daily"
   ]
 }

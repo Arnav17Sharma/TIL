@@ -1,4 +1,12 @@
-# Questions
+
+---
+Topic : [[Graphs]]
+date : 09-07-2024
+tags : #dsa #graphs #dfs #bfs #kahn #toposort 
+
+---
+
+### BFS/DFS Questions
 - [[Rotten Oranges]]
 - [[Surround Regions]]
 - [[Number of Enclaves]]
@@ -10,4 +18,4 @@
 - [[Bipartite Graph]]
 - [[Message Routes]]
 - [[Building Teams]]
--  
+### Topological Sorting - [[Graphs TopoSort]]
