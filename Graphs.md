@@ -6,7 +6,7 @@ tags : #dsa #graphs #dfs #bfs #kahn #toposort
 
 ---
 
-### BFS/DFS Questions
+### BFS/DFS Questions - 
 - [[Rotten Oranges]]
 - [[Surround Regions]]
 - [[Number of Enclaves]]
@@ -19,3 +19,10 @@ tags : #dsa #graphs #dfs #bfs #kahn #toposort
 - [[Message Routes]]
 - [[Building Teams]]
 ### Topological Sorting - [[Graphs TopoSort]]
+### Shortest Path Questions - 
+
+- [[Shortest path in Directed Acyclic Graph (USING TOPOSORT)]]
+- [[Shortest Path in Undirected Graph]]
+- [[Dijkstra's Algorithm (Using Priority Queue)]]
+- [[Dijkstra's Algorithm (Using Set]]
+- 

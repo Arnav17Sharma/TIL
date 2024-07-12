@@ -8,20 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b2bf1916b01a6ea1",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Linked Lists.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
             "id": "cff11430b86b6571",
             "type": "leaf",
             "pinned": true,
@@ -48,9 +34,59 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "c4df7b72aba02d64",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Dynamic Programming.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "7b5b2fa780be8c4a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "0/01 Knapsack.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d65b4331aa23f60e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Dijkstra's Algorithm (Using Set.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "66bb667f3886c3ed",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Dijkstra's Algorithm (Using Priority Queue).md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -116,7 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Graphs TopoSort.md",
+                "file": "Dijkstra's Algorithm (Using Priority Queue).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Graphs TopoSort.md",
+                "file": "Dijkstra's Algorithm (Using Priority Queue).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +192,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Graphs TopoSort.md"
+                "file": "Dijkstra's Algorithm (Using Priority Queue).md"
               }
             }
           }
@@ -177,17 +213,24 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ecd851a96f4f2947",
+  "active": "66bb667f3886c3ed",
   "lastOpenFiles": [
-    "Course Schedule II.md",
+    "Graphs.md",
+    "Dijkstra's Algorithm (Using Set.md",
+    "0/01 Knapsack.md",
+    "Shortest Path in Undirected Graph.md",
+    "Dijkstra's Algorithm (Using Priority Queue).md",
+    "Shortest path in Directed Acyclic Graph (USING TOPOSORT).md",
     "Graphs TopoSort.md",
+    "Dynamic Programming.md",
+    "Linked Lists.md",
+    "0",
+    "Course Schedule II.md",
     "Course Schedule I.md",
     "link.md",
     "Cycle Detection in Directed Graph (BFS).md",
-    "Graphs.md",
     "Bipartite Graph.md",
     "Building Teams.md",
-    "Linked Lists.md",
     "Doubly linked list Insertion at given position.md",
     "Introduction to Doubly Linked List.md",
     "Search in Linked List.md",
@@ -200,20 +243,14 @@
     "23-06-2024.md",
     "Untitled.canvas",
     "README.md",
-    "Word Ladder - II.md",
-    "Word Ladder - I.md",
     "Unit-4 Environment and Ecology.pptx",
     "Unit-4 Environment and Ecology 2.pptx",
     "Unit-4 Environment and Ecology 1.pptx",
-    "Surround Regions.md",
-    "Rotten Oranges.md",
-    "Q 01 Matrix.md",
     "Pasted image 20240618210642.png",
     "Pasted image 20240618202136.jpg",
     "Pasted image 20240618201755.png",
     "Pasted image 20240618200710.png",
     "Pasted image 20240618200644.png",
-    "Number of Enclaves.md",
     "999 Templates",
     "999 Daily"
   ]
