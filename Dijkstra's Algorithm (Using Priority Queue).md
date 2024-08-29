@@ -8,7 +8,7 @@ date: 12-07-2024-07-12
 ---
 ## Approach
 
-- Create Priority Queue.
+- Create Priority Queue. 
 - Check for distance. 
 - BFS Approach. 
 ## Code 
@@ -16,8 +16,8 @@ date: 12-07-2024-07-12
 ```cpp
 vector <int> dijkstra(int V, vector<vector<int>> adj[], int S)
     {
-        priority_queue<pair<int, int>, vector<pair<int, int>>,
-											        greater<pair<int, int>>> pq;
+        priority_queue<pair<int, int>, vector<pair<int, int>>, 
+								        greater<pair<int, int>>> pq;
         vector<int> distTo(V, INT_MAX);
         
         distTo[S] = 0;

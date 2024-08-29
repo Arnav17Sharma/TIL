@@ -13,7 +13,6 @@ tags : #dsa #toposort #kahn
 #### DFS Approach
 
 ```cpp
-
     private:
     void dfs(int node, vector<int> &vis, stack<int> &st, vector<int> adj[]) {
         vis[node] = 1;
