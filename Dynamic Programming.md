@@ -13,5 +13,12 @@ tags : #dsa #dp #recursion
 - 
 ### Questions 
 - [[01 Knapsack]]
-- 
 
+
+---
+## Number Tower
+
+- https://leetcode.com/problems/pascals-triangle/
+- https://leetcode.com/problems/pascals-triangle-ii/
+- https://leetcode.com/problems/minimum-path-sum/
+- 

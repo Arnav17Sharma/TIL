@@ -113,3 +113,9 @@ vector<int> bellmanFord(int V, vector<vector<int>> &edges, int S) {
 	return result;	
 }
 ```
+
+### Disjoint Set Union 
+- Helps to:
+	- Combine 2 given sets.     ======> `UNION`
+	- Tell if 2 members belong to the same set or not. ========> `FIND`
+	- 

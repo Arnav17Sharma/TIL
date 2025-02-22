@@ -1,12 +1,15 @@
----
 
 ---
 ### 🦚राधे राधे🪈
-date: {{date:YYYY-MM-DD}}T{{time:HH:mm}}
+date: 2025-02-22T02:53
 Author: [[Arnav]]
 
 ---
+To-Do's :
+- [ ]
 
+#### Note: 
+- Radhe Radhe
 
 
 ---

@@ -4,107 +4,43 @@
     "type": "split",
     "children": [
       {
-        "id": "4583203821249f9d",
+        "id": "ba5f47dc2aae153f",
         "type": "tabs",
         "children": [
           {
-            "id": "c4df7b72aba02d64",
+            "id": "b7c764b692d1d44f",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dynamic Programming.md",
+                "file": "999 Daily/2025-02-23.md",
                 "mode": "source",
                 "source": false
               },
-              "pinned": true
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "2025-02-23"
             }
           },
           {
-            "id": "43403d6d70a8c978",
+            "id": "94bc7d13ebc48a92",
             "type": "leaf",
-            "pinned": true,
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "00000 DBOI.md",
-                "mode": "source",
-                "source": false
+                "file": "000000 tp.canvas",
+                "viewState": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 0
+                }
               },
-              "pinned": true
-            }
-          },
-          {
-            "id": "6af681d61e32fa41",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Binary Trees.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "daf8a1f6081f519d",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Sortings.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "670920172f977943",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00000 Tries.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "cff11430b86b6571",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Graphs.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "c03b6ca5f74f6cf0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00000 Cisco.md",
-                "mode": "source",
-                "source": false
-              }
+              "icon": "lucide-layout-dashboard",
+              "title": "000000 tp"
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -124,7 +60,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -139,7 +77,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -147,7 +87,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
@@ -170,7 +112,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Graphs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -178,7 +119,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
             }
           },
           {
@@ -187,10 +130,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Graphs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
             }
           },
           {
@@ -201,7 +145,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -209,9 +155,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Graphs.md"
-              }
+              "state": {},
+              "icon": "lucide-list",
+              "title": "Outline"
             }
           }
         ]
@@ -231,44 +177,49 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cff11430b86b6571",
+  "active": "b7c764b692d1d44f",
   "lastOpenFiles": [
-    "Pasted image 20240829130621.png",
-    "00000 Cisco.md",
-    "Print Shortest Path.md",
+    "000000 tp.canvas",
+    "999 Daily/2025-02-23.md",
+    "2025-02-23.md",
+    "999 Daily/regular.md",
+    "Rotten Oranges.md",
     "Graphs.md",
-    "Dijkstra's Algorithm (Using Set.md",
-    "Dijkstra's Algorithm (Using Priority Queue).md",
-    "Graphs TopoSort.md",
-    "Dynamic Programming.md",
+    "Recursion.md",
+    "00000 Morgan Stanley.md",
     "00000 DBOI.md",
+    "00000 Tries.md",
+    "00000 Cisco.md",
+    "999 Daily/2024-06-17.md",
+    "999 Templates/Daily Template.md",
+    "hola.md",
+    "Untitled 1.md",
+    "797. All Paths From Source to Target.md",
+    "Dynamic Programming.md",
     "Binary Trees.md",
     "Sortings.md",
-    "00000 Tries.md",
-    "Word Ladder - I.md",
-    "isPalindrome Linked List.md",
-    "Linked Lists.md",
-    "Arrays to LinkedLists.md",
-    "Doubly linked list Insertion at given position.md",
-    "Count Linked List Nodes.md",
-    "Untitled.md",
-    "0/01 Knapsack.md",
-    "Shortest Path in Undirected Graph.md",
-    "Shortest path in Directed Acyclic Graph (USING TOPOSORT).md",
+    "2024-09-07.md",
+    "INTERVIEW DAY.md",
+    "23-06-2024.md",
+    "Building Teams.md",
+    "Bipartite Graph.md",
+    "DAA.md",
+    "Pasted image 20240901140100.png",
+    "Pasted image 20240901140034.png",
+    "Pasted image 20240901121002.png",
+    "Pasted image 20240901120857.png",
+    "Pasted image 20240901120724.png",
+    "Pasted image 20240901120705.png",
+    "Pasted image 20240901120459.png",
+    "Pasted image 20240901120425.png",
+    "Pasted image 20240901120020.png",
+    "Pasted image 20240901115837.png",
+    "Blank Document.md",
     "0",
-    "Course Schedule II.md",
-    "Course Schedule I.md",
-    "link.md",
-    "Cycle Detection in Directed Graph (BFS).md",
     "Untitled.canvas",
     "Unit-4 Environment and Ecology.pptx",
     "Unit-4 Environment and Ecology 2.pptx",
     "Unit-4 Environment and Ecology 1.pptx",
-    "Pasted image 20240618210642.png",
-    "Pasted image 20240618202136.jpg",
-    "Pasted image 20240618201755.png",
-    "Pasted image 20240618200710.png",
-    "Pasted image 20240618200644.png",
     "999 Templates",
     "999 Daily"
   ]
