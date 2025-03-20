@@ -4,40 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "ba5f47dc2aae153f",
+        "id": "0f6e91285888090e",
         "type": "tabs",
         "children": [
           {
-            "id": "b7c764b692d1d44f",
+            "id": "ec490f9aa80de1a1",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "999 Daily/2025-02-23.md",
+                "file": "999 Daily/23-06-2024.md",
                 "mode": "source",
                 "source": false
               },
-              "pinned": true,
               "icon": "lucide-file",
-              "title": "2025-02-23"
-            }
-          },
-          {
-            "id": "94bc7d13ebc48a92",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "000000 tp.canvas",
-                "viewState": {
-                  "x": 0,
-                  "y": 0,
-                  "zoom": 0
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "000000 tp"
+              "title": "23-06-2024"
             }
           }
         ]
@@ -59,7 +40,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -177,33 +159,35 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b7c764b692d1d44f",
+  "active": "9a8a8b28081f65e0",
   "lastOpenFiles": [
+    "999 Daily/2025-03-19.md",
+    "Blank Document.md",
+    "797. All Paths From Source to Target.md",
+    "00000 Tries.md",
+    "999 Daily/23-06-2024.md",
+    "200. Number of Islands.md",
     "000000 tp.canvas",
-    "999 Daily/2025-02-23.md",
+    "00000 DBOI.md",
+    "00000 Cisco.md",
+    "2025-03-04.md",
+    "ML.md",
+    "999 Daily/2025-03-03.md",
+    "00000 Morgan Stanley.md",
+    "Untitled 2.md",
+    "2024-09-07.md",
     "2025-02-23.md",
+    "INTERVIEW EXPERIENCE.md",
+    "Sortings.md",
+    "999 Daily/2025-02-23.md",
     "999 Daily/regular.md",
     "Rotten Oranges.md",
     "Graphs.md",
     "Recursion.md",
-    "00000 Morgan Stanley.md",
-    "00000 DBOI.md",
-    "00000 Tries.md",
-    "00000 Cisco.md",
     "999 Daily/2024-06-17.md",
     "999 Templates/Daily Template.md",
     "hola.md",
     "Untitled 1.md",
-    "797. All Paths From Source to Target.md",
-    "Dynamic Programming.md",
-    "Binary Trees.md",
-    "Sortings.md",
-    "2024-09-07.md",
-    "INTERVIEW DAY.md",
-    "23-06-2024.md",
-    "Building Teams.md",
-    "Bipartite Graph.md",
-    "DAA.md",
     "Pasted image 20240901140100.png",
     "Pasted image 20240901140034.png",
     "Pasted image 20240901121002.png",
@@ -214,7 +198,6 @@
     "Pasted image 20240901120425.png",
     "Pasted image 20240901120020.png",
     "Pasted image 20240901115837.png",
-    "Blank Document.md",
     "0",
     "Untitled.canvas",
     "Unit-4 Environment and Ecology.pptx",
