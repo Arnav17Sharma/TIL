@@ -1,0 +1,9 @@
+{
+	"nodes":[
+		{"id":"71f3ce68f927069b","type":"file","file":"Web3 Overview.md","x":-500,"y":-420,"width":720,"height":1060},
+		{"id":"b2f5804c717f7ccb","type":"file","file":"Whitepaper of Bitcoin.md","x":320,"y":-420,"width":760,"height":1380}
+	],
+	"edges":[
+		{"id":"0b1635572ba608d1","fromNode":"71f3ce68f927069b","fromSide":"right","toNode":"b2f5804c717f7ccb","toSide":"left"}
+	]
+}
