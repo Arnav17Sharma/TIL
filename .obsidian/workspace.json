@@ -4,42 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "111353da094a1750",
+        "id": "f06241912f458468",
         "type": "tabs",
         "children": [
           {
-            "id": "66731a321f3f1013",
+            "id": "2fda02fb6bccfb4d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Web3 Overview.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Web3 Overview"
-            }
-          },
-          {
-            "id": "ea034d40d693238e",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "Web3.canvas",
-                "viewState": {
-                  "x": 362.8896087072767,
-                  "y": 247.8674066101593,
-                  "zoom": -1
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "Web3"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -177,12 +155,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ea034d40d693238e",
+  "active": "2fda02fb6bccfb4d",
   "lastOpenFiles": [
+    "Deep-Dive into LLMS like ChatGPT.md",
+    "Web3 Overview.md",
+    "Web3.canvas",
+    "Public Key Cryptography.md",
+    "Untitled 4.md",
     "Untitled",
     "Whitepaper of Bitcoin.md",
-    "Web3.canvas",
-    "Web3 Overview.md",
     "999 Daily/23-06-2024.md",
     "999 Daily/2025-03-19.md",
     "Blank Document.md",
@@ -204,9 +185,6 @@
     "999 Daily/2025-02-23.md",
     "999 Daily/regular.md",
     "Rotten Oranges.md",
-    "Graphs.md",
-    "Recursion.md",
-    "999 Daily/2024-06-17.md",
     "Pasted image 20240901140100.png",
     "Pasted image 20240901140034.png",
     "Pasted image 20240901121002.png",
