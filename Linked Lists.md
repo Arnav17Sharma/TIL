@@ -18,7 +18,7 @@ tags : #dsa #linked-lists
 
 ```cpp
 int x = 2;
-int * y = &x;
+int *y = &x;
 ```
 Here, y stores the pointer pointing at the address of the memory location of variable x. 
 
@@ -54,6 +54,8 @@ class Node {
 - [[Search in Linked List]]
 - [[Introduction to Doubly Linked List]]
 - [[Doubly linked list Insertion at given position]]
+- [[Delete in DLL]]
+- [[Reverse DLL]]
 - [[isPalindrome Linked List]]
 - 
 

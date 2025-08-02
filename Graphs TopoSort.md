@@ -5,12 +5,11 @@ date : 09-07-2024
 tags : #dsa #toposort #kahn 
 
 ---
-
-### Topological Sorting 
+### **Topological Sorting** 
 - It is a linear ordering of vertices such that if there is an edge `u -> v` then u appears `before` v in the ordering. 
 - Can only occur in DAG (Directed Acyclic Graph) . 
 
-#### DFS Approach
+#### **DFS Approach**
 
 ```cpp
     private:
@@ -44,7 +43,7 @@ tags : #dsa #toposort #kahn
 ```
 
 
-#### BFS Approach (Kahn's Algorithm)
+#### **BFS Approach (Kahn's Algorithm)**
 
 ```cpp
 	vector<int> topoSort(int V, vector<int> adj[]) 

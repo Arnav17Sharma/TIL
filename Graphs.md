@@ -17,8 +17,7 @@ void bfs(vector<vector<int>> &adj, int node, int vis[], vector<int> &ans) {
 	ans.push_back(node);
 	
 	while(!q.empty()) {
-		int main = q.front();
-		q.pop();
+		int main = q.front(); q.pop();
 		for(auto x: adj[main]) {
 			if(!vis[x]) {
 				q.push(x);

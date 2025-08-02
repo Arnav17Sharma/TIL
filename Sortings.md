@@ -100,20 +100,19 @@ Sorting algorithms can be classified based on various criteria:
 
 ## 4. Performance Comparison
 
-| Algorithm      | Best Case  | Average Case | Worst Case | Space Complexity | Stable |
-| -------------- | ---------- | ------------ | ---------- | ---------------- | ------ |
-| Bubble Sort    | O(n)       | O(n^2)       | O(n^2)     | O(1)             | Yes    |
-| Selection Sort | O(n^2)     | O(n^2)       | O(n^2)     | O(1)             | No     |
-| Insertion Sort | O(n)       | O(n^2)       | O(n^2)     | O(1)             | Yes    |
-| Merge Sort     | O(n log n) | O(n log n)   | O(n log n) | O(n)             | Yes    |
-| Quick Sort     | O(n log n) | O(n log n)   | O(n^2)     | O(log n)         | No     |
-| Heap Sort      | O(n log n) | O(n log n)   | O(n log n) | O(1)             | No     |
-| Counting Sort  | O(n + k)   | O(n + k)     | O(n + k)   | O(k)             | Yes    |
-| Radix Sort     | O(nk)      | O(nk)        | O(nk)      | O(n + k)         | Yes    |
+| Algorithm          | Best Case      | Average Case   | Worst Case     | Space Complexity | Stable |
+| ------------------ | -------------- | -------------- | -------------- | ---------------- | ------ |
+| Bubble Sort        | O(n)           | O(n^2)         | O(n^2)         | O(1)             | Yes    |
+| ==Selection Sort== | ==O(n^2)==     | ==O(n^2)==     | ==O(n^2)==     | ==O(1)==         | ==No== |
+| Insertion Sort     | O(n)           | O(n^2)         | O(n^2)         | O(1)             | Yes    |
+| Merge Sort         | O(n log n)     | O(n log n)     | O(n log n)     | O(n)             | Yes    |
+| ==Quick Sort==     | ==O(n log n)== | ==O(n log n)== | ==O(n^2)==     | ==O(log n)==     | ==No== |
+| ==Heap Sort==      | ==O(n log n)== | ==O(n log n)== | ==O(n log n)== | ==O(1)==         | ==No== |
+| Counting Sort      | O(n + k)       | O(n + k)       | O(n + k)       | O(k)             | Yes    |
+| Radix Sort         | O(nk)          | O(nk)          | O(nk)          | O(n + k)         | Yes    |
 
 # Types of sorts: 
-
-- ### Bubble Sort
+### **Bubble Sort** - STABLE
 	- For all elements
 	- `if(arr[i] < arr[i-1])` then swap `arr[i]` and `arr[i-1]` 
 	- repeat until sorted.
@@ -142,7 +141,7 @@ void bubbleSort(int arr[], int n) {
 }
 ```
 
-- ### Selection Sort
+### **Selection Sort** - UNSTABLE
 	- Start from i = 0.
 	- Find smallest element in the range of \[i, n-1].
 	- swap with `arr[i]` and increment i.
@@ -150,35 +149,31 @@ void bubbleSort(int arr[], int n) {
 	- Average TC : `O(n^2)`
 	- Worst TC : `O(n^2)`
 	- SC : `O(1)`
-	
 ```cpp
 int select(int arr[], int i, int n)
 {
-	int a = i;
-	int b = a;
-	while(a <= n-1) {
-		if(arr[a] < arr[b]) {
-			b = a;
-		}
-		a += 1;
-	}
-	return b;
+    int min_index = i;
+    for (int j = i + 1; j < n; j++) {
+        if (arr[j] < arr[min_index]) {
+            min_index = j;
+        }
+    }
+    return min_index;
 }
+
  
 void selectionSort(int arr[], int n)
 {
 	int i = 0;
 	while(i <= n-1) {
 		int small = select(arr, i, n);
-		int temp = arr[small];
-		arr[small] = arr[i];
-		arr[i] = temp;
+		swap(arr[i], arr[small]);
 		i++;
 	}
 }
 ```
 
-- ### Insertion Sort
+### **Insertion Sort** - STABLE
 	- Maintain a sorted sub-array.
 	- for every element check for all elements in the sorted sub-array. 
 	- Best TC : `O(n)`
@@ -198,5 +193,106 @@ void insertionSort(int a[], int n)
 		a[j+1] = temp;
 	}
 }
+```
+
+
+### **Merge Sort** - STABLE
+- **Concept**: Divide the array recursively into halves, sort them, and merge.
+- **Approach**:
+    - Recursive
+    - Divide and Conquer
+- **Time Complexity**:
+    - Best: `O(n log n)`
+    - Average: `O(n log n)`
+    - Worst: `O(n log n)`
+- **Space Complexity**: `O(n)` (due to extra temp arrays)
+- **Use Case**: Works well with **linked lists** and external sorting.
+
+```cpp
+void merge(int arr[], int l, int m, int r) {
+	int n1 = m - l + 1;
+	int n2 = r - m;
+	int L[n1], R[n2];
+	for(int i = 0; i < n1; i++) L[i] = arr[l + i];
+	for(int i = 0; i < n2; i++) R[i] = arr[m + 1 + i];
+		
+	int i = 0, j = 0, k = l;
+	while(i < n1 && j < n2) {
+		if(L[i] <= R[j]) {
+			arr[k] = L[i];
+			k++; i++;
+		} else {
+			arr[k] = R[j];
+			k++;
+			j++;
+		}
+	}
+	while(i < n1) {
+		arr[k] = L[i];
+		k++; i++;
+	}
+		
+	while(j < n2) {
+		arr[k] = R[j];
+		k++; j++;
+	}
+}
+
+
+void mergeSort(int arr[], int l, int r) {
+	if(l < r) {
+		int m = l + (r - l) / 2;
+		mergeSort(arr, l, m);
+		mergeSort(arr, m+1, r);
+		merge(arr, l, m, r);
+	}
+}
+```
+
+### **Quick Sort** - UNSTABLE
+- **Concept**: Select a pivot and partition the array such that elements smaller than pivot come before, and greater come after.
+- **Approach**:
+    - Divide and Conquer
+- **Time Complexity**:
+    - Best: `O(n log n)`
+    - Average: `O(n log n)`
+    - Worst: `O(n^2)` (when pivot is min or max element).
+- **Space Complexity**: `O(log n)` (due to recursion stack).
+- **Use Case**: **Fastest** in practice for general-purpose arrays.
+
+```cpp
+int patition(int arr[], int low, int high) {
+	int pivot = arr[high];
+	int i = low - 1;
+		
+	for(int j = low; j < high; j++) {
+		if(arr[j] <= pivot) {
+			i++;
+			swap(arr[i], arr[j]);
+		}
+	}
+	swap(arr[i+1], arr[high]);
+	return i + 1;
+}
+
+void quickSort(int arr[], int low, int high) {
+	if(low < high) {
+		int pi = partition(arr, low, high);
+		quickSort(arr, low, pi - 1);
+		quickSort(arr, pi + 1, high);
+	}
+}
+```
+
+### **Heap Sort** – UNSTABLE
+- **Concept**: Build a max-heap, then repeatedly extract the max and re-heapify.
+- **Approach**: Priority Queue based, in-place
+- **Time Complexity**:
+    - Best: `O(n log n)`
+    - Average: `O(n log n)`
+    - Worst: `O(n log n)`
+- **Space Complexity**: `O(1)`
+- **Use Case**: Useful in heap-based priority queues, real-time systems.
+```cpp
 ```
 
